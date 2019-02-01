@@ -3826,7 +3826,7 @@ button.close {
   background-color: #e9ecef;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.5rem;
+  border-radius: 0;
   outline: 0; }
 
 .modal-backdrop {
@@ -9686,6 +9686,16 @@ img.zoom-img {
     overflow: hidden;
     white-space: nowrap;
 }
+
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+}
+
+.modal-full .modal-content {
+    min-height: 100vh;
+}
+
 .blur1{filter:blur(1px);}
 .blur2{filter:blur(2px);}
 .blur3{filter:blur(3px);}
