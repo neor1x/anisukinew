@@ -9669,7 +9669,8 @@ img.zoom-img {
     border: none;
     font: inherit;
     position: absolute;
-    top: 45%;
+    top: 40%;
+    margin: 5px;
     font-size: 2.5em;
 }
 .owl-next {
