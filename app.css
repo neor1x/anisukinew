@@ -140,7 +140,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #0099FF;
+  color: #fff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
@@ -9678,6 +9678,13 @@ img.zoom-img {
 }
 .owl-prev {
    left: 0;
+}
+
+.anime-title {
+    padding: 8px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .blur1{filter:blur(1px);}
 .blur2{filter:blur(2px);}
