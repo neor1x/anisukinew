@@ -2766,7 +2766,10 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem; 
+  background: #e9ecef;
+  margin: 3px;
+  border-radius: 4px; }
   .nav-link:hover, .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {
@@ -9317,7 +9320,7 @@ section {
   border-radius: 0.375rem 0.375rem 0 0; }
 
 .tab-content:not(.sw-container) {
-  opacity: 0; }
+  opacity: 1; }
 
 .sw-theme-default > ul.step-anchor > li.active > a {
   color: #0099FF !important; }
