@@ -3796,8 +3796,9 @@ button.close {
 
 .modal-dialog {
   position: relative;
+  overflow-y: initial !important;
   width: auto;
-  margin: 0.5rem;
+  padding: 0!important;
   pointer-events: none; }
   .modal.fade .modal-dialog {
     transition: transform 0.3s ease-out;
@@ -3861,6 +3862,7 @@ button.close {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
+  overflow-y: auto;
   padding: 1.5rem; }
 
 .modal-footer {
